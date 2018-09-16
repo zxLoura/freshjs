@@ -1,0 +1,185 @@
+/*
+* @Author: ZX
+* @Date:   2018-08-14 18:11:36
+* @Last Modified by:   ZX
+* @Last Modified time: 2018-08-14 18:47:26
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 1.82rem;
+	background:repeating-linear-gradient(to right top,#ffd43d,#fab001);
+	padding: 0 0.24rem;
+	margin-bottom: 0.24rem;
+}
+header .confirm{
+	width: 100%;
+	height: 0.66rem;
+	/* background: red; */
+	padding-top: 0.45rem;
+	display: flex;
+
+}
+header .confirm .back{
+	width: 2.9rem;
+	height: 100%;
+	/* background: blue; */
+}
+header .confirm .back i{
+	display:block;
+	font-size: 0.3rem;
+	color: #fff;
+	margin-top: 0.07rem;
+}
+header .confirm .order{
+	width: calc(100% - 2.9rem);
+	height: 100%;
+/* 	background: yellow; */
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .pay{
+	width: 100%;
+	height: 1.37rem;
+	border-radius: 0.1rem;
+	background:#fff;
+	box-shadow:  0 0.04rem 0.02rem 0.02em rgba(3, 3, 3, 0.1);
+	padding: 0.42rem 0.49rem 0.53rem 0.37rem; 
+	margin-top: 0.6rem;
+}
+header .pay .box{
+	width: 6.15rem;
+	height: 0.44rem;
+	/* background-color: red; */
+	display: flex;
+}
+header .pay .box .left{
+	width: 0.66rem;
+	height: 100%;
+	/* background-color: pink; */
+}
+header .pay .box .left img{
+	width: 0.42rem;
+	height: 0.42rem;
+	display: block;
+}
+header .pay .box .center{
+	width: 4.37rem;
+	height: 100%;
+	/* background-color: yellow; */
+	font-size: 0.28rem;
+	color:  #333;
+}
+header .pay .box .right{
+	width: 1.12rem;
+	height: 100%;
+	background-color: #fff;
+	font-size: 0.28rem;
+	color: red;
+}
+header .pay .box .right span{
+	font-size: 0.18rem;
+}
+/* 顶部结束 */
+
+/* 银行卡 开始*/
+.bank{
+	margin: 1.3rem 0 0.4rem;
+	width: 100%;
+	height: 3.58rem;
+	padding: 0 0.75rem;
+	position: relative;
+}
+.bank img{
+	width: 6rem;
+	height: 3.58rem;
+	display: block;
+	border-radius: 0.2rem;
+}
+.bank .num{
+	width: 3.82rem;
+	height: 0.28rem;
+	/* background-color: red; */
+	position: absolute;
+	bottom: 1.2em;
+	left: 2.6em;
+	display: flex;
+}
+.bank .num .min-left{
+	font-size: 0.28rem;
+	color: #fff;
+	margin-right: 0.35rem;
+}
+.bank .num .left{
+	font-size: 0.28rem;
+	color: #b99f67;
+	margin-right: 0.35rem;
+}
+.bank .num .center{
+	font-size: 0.28rem;
+	color: #b99f67;
+	margin-right: 0.35rem;
+}
+.bank .num .right{
+	font-size: 0.28rem;
+	color: #fff;
+}
+/* 银行卡结束 */
+
+/* 密码验证开始 */
+.use{
+	width: 100%;
+	height: 0.4rem;
+	/* background-color: green; */
+	padding: 0 1.81rem;
+}
+.use .box{
+	width: 100%;
+	height: 100%;
+	/* background-color: red; */
+	display: flex;
+}
+.use .box .left img{
+	width: 0.4rem;
+	height: 0.1rem;
+	display: block;
+	margin-top: 0.15rem;
+}
+.use .box .center{
+	width: 3.8rem;
+	height: 100%;
+	/* background-color: yellow; */
+	font-size: 0.26rem;
+	color: #333;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.use .box .right img{
+	width: 0.4rem;
+	height: 0.1rem;
+	display: block;
+	margin-top: 0.15rem;
+	margin-left: 0;
+}
+/* 密码验证结束 */
+
+/*  密码输入开始*/
+.graph img{
+	width: 4.11rem;
+	height: 4.18rem;
+	display: block;
+	margin: 1rem auto;
+}
+

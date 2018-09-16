@@ -1,0 +1,287 @@
+
+/* * @Author: ZX
+* @Date:   2018-08-12 21:10:25
+* @Last Modified by:   ZX
+* @Last Modified time: 2018-09-13 14:34:59
+*/ 
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 0.94rem;
+	background:repeating-linear-gradient(to right top,#ffd43d,#fab001);
+	padding:0 0.24rem;
+}
+header .top{
+	width: 100%;
+	height: 100%;
+	/* background: green; */
+	display: flex;
+}
+header .top .center{
+	width: 6.52rem;
+	height: 100%;
+	/* background: blue; */
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+}
+header .top .center p{
+	font-size: 0.3rem;
+	color: #fff;
+	margin: 0.25rem 0 0.08rem 0;
+}
+header .top .right{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 0.25rem;
+	margin: auto 0;
+	text-align: center;
+}
+header .top .right i{
+	font-size: 0.3rem;
+	color: #fab001;
+	display: block;
+	margin-top: 0.11rem;
+	margin-left: 0.1rem;
+
+}
+/* 顶部结束  */
+
+/* 历史订单开始 */
+.history{
+	width: 100%;
+	height: 4.18rem;
+	/* background: red; */
+	padding: 0.24rem 0.24rem 0;
+}
+.history .infer{
+	width: 100%;
+	height: 1.03rem;
+	/* background: green; */
+}
+.history .infer h3{
+	width: 100%;
+	height: 0.4rem;
+	/* background: pink; */
+	padding-left: 0.1rem;
+	font-size: 0.26rem;
+	color:#f9b931;
+}
+.history .infer p{
+	padding-left: 0.1rem;
+	font-size: 0.2rem;
+	color:#f9b931;
+	width: 100%;
+	height: 0.64rem;
+	/* background: pink; */
+}
+.history .picture{
+	width: 100%;
+	height: 2.9rem;
+	/* background: blue; */
+	padding-bottom: 0.43rem;
+}
+.history .picture ul{
+	display: flex;
+}
+.history .picture ul li{
+	width: 2.28rem;
+	/* height: 2.49rem; */
+	background:#fff;
+	box-shadow:  0 0.04rem 0.1rem 0.01em rgba(250, 175, 70, 0.5);
+	margin-right: 0.1rem;
+	border-radius: 0.2rem;
+}
+.history .picture ul li:nth-child(3){
+	margin-right: 0;
+}
+.history .picture ul li img{
+	display: block;
+	width: 100%;
+	height: 1.52rem;
+	border-radius: 0.2rem 0.2rem 0 0;
+}
+.history .picture ul li h3{
+	padding-top: 0.12rem;
+	font-size: 0.18rem;
+	color: #333;
+	text-align: center;
+}
+.history .picture ul li p{
+	padding-bottom: 0.06rem;
+	font-size: 0.14rem;
+	text-align: center;
+	color: #dadada;
+}
+.history .picture ul li h2{
+	font-size: 0.2rem;
+	color: red;
+	text-align: center;
+}
+.history .picture ul li h2 span{
+	font-size:0.12rem;
+}
+/* 历史订单结束 */
+
+/* 卖家推荐开始 */
+.recommend{
+	width: 100%;
+	height: 7.4rem;
+	/* background: yellow; */
+}
+.recommend .sell{
+	width: 100%;
+	height: 1.2rem;
+	padding: 0 0.24rem;
+	/* background: orange; */
+}
+.recommend .sell h3{
+	width: 100%;
+	height: 0.4rem;
+	/* background: pink; */
+	padding-left: 0.1rem;
+	font-size: 0.26rem;
+	color:#f9b931;
+}
+.recommend .sell p{
+	padding-left: 0.1rem;
+	font-size: 0.2rem;
+	color:#f9b931;
+	width: 100%;
+	height: 0.64rem;
+	/* background: pink; */
+}
+.recommend .center{
+	width: 100%;
+	height: 5.52rem;
+	/* background: pink; */
+	padding: 0 0.24rem;
+}
+.recommend .center ul li{
+	width: 100%;
+	height: 1.37rem;
+/* 	background: green; */
+	padding: 0 0.24rem;
+	display: flex;
+	margin-bottom: 0.24rem;
+	background:#fff;
+	box-shadow:  0 0.04rem 0.1rem 0.01em rgba(250, 175, 70, 0.5);
+}
+.recommend .center ul li .picture{
+	width: 1.46rem;
+	height: 100%;
+	padding:0.24rem 0.44rem 0.24rem 0;
+	/* background: red; */
+}
+.recommend .center ul li .picture img{
+	display: block;
+	width: 1rem;
+	height: 0.84rem;
+	border-radius: 0.15rem;
+}
+.recommend .center ul li .word{
+	width: 2.99rem;
+	height: 100%;
+	/* background: blue; */
+	padding: 0.24rem 0;
+}
+.recommend .center ul li .word h2{
+	font-size: 0.3rem;
+	color: #333;
+	font-weight: 400;
+}
+.recommend .center ul li .word p{
+	font-size: 0.18rem;
+	color: #c9c9c9;
+	line-height: 0.1rem;
+}
+.recommend .center ul li .word h3{
+	font-size: 0.24rem;
+	color: #585858;
+	line-height: 0.24rem;
+	font-weight: 400;
+}
+.recommend .center ul li .word .remise{
+	font-size: 0.18rem;
+	color: red;
+}
+.recommend .center ul li .word .remise span{
+	margin-left: 0.14rem;
+	line-height: 0.38rem;
+}
+.recommend .center ul li .right{
+	width: 2.34rem;
+	height: 100%;
+	padding: 0.24rem 0;
+	/* background: red; */
+}
+.recommend .center ul li .right .top{
+	width: 1.61rem;
+	height: 0.4rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	text-align: center;
+	color: red;
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	background:#fff;
+	box-shadow:  0 0.04rem 0.1rem 0.01em rgba(250, 175, 70, 0.5);
+}
+.recommend .center ul li .right .top:nth-child(1){
+	margin-bottom: 0.08rem;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 1.06rem;
+	padding: 0 0.24rem;
+	background: #fff;
+
+}
+footer ul{
+	width: 100%;
+	height: 100%;
+	/* background-color: blue; */
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 -0.04rem 0.2rem 0.01rem #ffc024;
+}
+footer ul li{
+	margin-top: 0.12rem;
+	height: 0.44rem;
+	width: 0.5rem;
+	/* background-color: yellow; */
+	display: flex;
+	flex-direction: column;
+}
+footer ul li img{
+	height: 0.44rem;
+	width: 0.5rem;
+}
+footer ul li a img{
+	height: 0.44rem;
+	width: 0.5rem;
+	display: block;
+}
+footer ul li h5{
+	font-size: 0.2rem;
+	color: #333;
+	text-align: center;
+}

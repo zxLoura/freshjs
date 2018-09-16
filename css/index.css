@@ -1,0 +1,399 @@
+/*
+* @Author: ZX
+* @Date:   2018-08-08 11:20:02
+* @Last Modified by:   ZX
+* @Last Modified time: 2018-09-09 15:09:39
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+
+header{
+	width: 100%;
+	height: 0.92rem;
+	background:repeating-linear-gradient(to right top,#ffd43d,#fab001);
+	padding: 0 0.24rem;
+}
+/* .container{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+} */
+header .position{
+	width: 1.1rem;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 0.88rem;
+}
+header input{
+	width: 4.63rem;
+	height: 0.34rem;
+	background: #fff;
+	border: none;
+	float: left;
+	outline: none;
+	border-radius: 0.3rem;
+	margin: 0.28rem 0 0.3rem 0;
+	background-image:url("../img/serach.png");
+	background-repeat: no-repeat;
+	background-size: 0.25rem 0.24rem;
+	background-position: 0.1rem center;
+	padding-left: 0.38rem;
+
+	
+	/* 改变input中输入文字的样式 */
+	font-size: 0.24rem;
+	line-height: 0.45rem;
+	color: #f9b305;
+	
+}
+header .two{
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.24rem;
+	right: 0.24rem;
+	border-radius: 50%;
+	background: #fff;
+	font-size: 0.06rem;
+	/* background-image:url("../img/two.png");
+	background-repeat: no-repeat;
+	background-size: 0.36rem 0.34rem; */
+/* 	background-position: center center; */
+}
+header .two .icon-saoyisao{
+	display: block;
+	color: #f9b305;
+	font-size: 0.24rem;
+	margin-left: 0.08rem;
+	margin-top: 0.08rem;
+}
+/* 改变input中提示性文字的样式 */
+input::-webkit-input-placeholder{
+	color: #e1e1e1;
+	line-height: 0.45rem;
+	font-size: 0.24rem;
+	margin-left: 0.38rem;
+}
+.banner{
+	width: 100%;
+	height: 3.52rem;
+	background: red;
+}
+.banner img{
+	width: 100%;
+	height: 3.52rem;
+}
+/* .banner .dots{
+        width: 0.5rem;
+        height: 0.1rem;
+        background: pink;
+        position: absolute;
+        bottom: 0.2rem;
+        left:0;
+        right: 0;
+        margin:0 auto;
+} */
+/* .banner .dots .dot{
+        width: 0.1rem;
+        height: 0.1rem;
+        border-radius: 0.05rem;
+        background: #fff;
+        float:left;
+        margin-left: 0.1rem;
+    } */
+/* .banner .dots.active{
+        background: green;
+    } */
+
+/* .banner .dot{
+    background: #fff;
+} */
+nav{
+	width:100%;
+	height: 4.2rem;
+	padding: 0 0.24rem;
+}
+nav main{
+	height: 100%; 
+	/* background:  #f9b305; */
+	padding: 0.24rem 0.24rem;
+}
+nav main ul{
+	display: flex;
+	justify-content: space-between;
+	/* flex-wrap: wrap; */
+	/* align-content: center; */
+	/* align-content: space-around; */
+	/* align-content: space-between; */
+}
+/* nav main ul li{
+	width: 1.51rem;
+	height: 1.8rem;
+	background-color: blue;
+} */
+nav main ul li{
+	width: 1.51rem;
+	height: 1.86rem;
+/* 	background: blue; */
+}
+nav main ul li img{
+	display: block;
+	width:1.51rem;
+	height: 1.38rem; 
+}
+nav main ul li p{
+	font-size: 0.22rem;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.life{
+	width: 100%;
+	height: 3.99rem;
+}
+.life .picture{
+	width: 100%;
+	height: 0.84rem;
+}
+.life .picture img{
+	width: 100%;
+	height: 0.84rem;
+}
+
+
+.life .content{
+	width: 100%;
+	padding: 0 0.24rem;
+	margin:0.31rem 0 0.52rem 0;
+	display: flex;
+	/* background-color: red; */
+}
+.life .content .center{
+	/* background: blue; */
+	width: 100%;
+	height: 2.32rem;
+	display: flex;
+}
+.life .content .center .list{
+	background-color: red;
+	width: 3.51rem;
+	height: 2.32rem;
+}
+.life .content .center .left img{
+	width: 3.51rem;
+	height:2.32rem;
+}
+.life .content .center .right .top{
+	width: 3.51rem;
+	height:1.16rem;
+}
+.life .content .center .right img{
+	width: 3.51rem;
+	height:1.16rem;
+}
+.hot{
+	width: 100%;
+	padding: 0 0.24rem 0 0.24rem;
+	height: 14.67rem;
+	margin-bottom: 1.34rem;
+	/* background-color: red; */
+}
+.hot .picture{
+	width: 100%;
+	height: 0.84rem;
+}
+.hot .picture img{
+	width: 100%;
+	height: 0.84rem;
+}
+.hot .sale{
+	width: 100%;
+	height: 0.88rem;
+	/* background-color: red; */
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.24rem;
+}
+.hot .sale .box{
+	width: 1.52rem;
+	height: 0.46rem;
+	/* background-color: blue; */
+	margin-top: 0.09rem;
+	border: 0.02rem solid #ffd642;
+	border-radius: 0.23rem;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.46rem;
+	color: #333;
+}
+.hot ul{
+	width: 100%;
+	margin-bottom: 1.02rem;
+}
+/* .hot ul a{
+	color: #d0d0ce; 
+}
+.hot ul a li h5{
+	color: #333; 
+} */
+.hot ul li{
+	height: 2.35rem;
+	width: 100%;
+	/* background-color: red; */
+	box-shadow: 0 0.04rem 0.2rem 0.01rem #ffc024;
+	margin-bottom: 0.24rem;
+	padding: 0.24rem 0;
+	display: flex;
+	flex-direction: row;
+
+
+}
+.hot ul li .pic{
+	width: 1.32rem;
+	height: 100%;
+	/* background: yellow; */
+	/* float: left; */
+	display: flex;
+	justify-content:center; 
+	align-content: center;
+}
+.hot ul li .pic img{
+	display: block;
+	width: 1.32rem;
+	height:1.88rem;
+	margin-left: 0.02rem;
+}
+.hot ul li .content{
+	width: 5.68rem;
+	height: 1.88rem;
+	/* background: red; */
+/* 	float: left; */
+	padding-left: 0.24rem;	
+}
+.hot ul li .content .haha{
+	width: 100%;
+	height: 0.42rem;
+	display: flex;
+	/* flex-direction: row; */
+}
+.hot ul li .content .haha  h5{
+/* 	width: 100%;
+	height: 0.3rem; */
+	font-size: 0.3rem;
+	color: #333;
+	/* line-height: 0.3rem; */	
+}
+.hot ul li .content .haha  span{
+	color: #ffd541;
+	font-size: 0.3rem;
+	margin-left: 0.46rem;
+	line-height: 0.36rem;
+}
+.hot ul li .content .point{
+	width:100%;
+	height: 0.14rem;
+	font-size: 0.12rem;
+	color: #d0d0ce;
+	line-height: 0.12rem;
+}
+.hot ul li .word{
+	font-size: 0.22rem;
+	color: #d0d0ce;
+}
+.hot ul li .price{
+	font-size: 0.22rem;
+	color: #d0d0ce;
+}
+.hot ul li .price p{
+	display: inline-block;
+	font-size: 0.22rem;
+	color: #d0d0ce;
+	margin-left: 0.2rem;
+}
+.hot ul li .remise{
+	display: flex;
+	font-size: 0.18rem;
+	color: #d0d0ce;
+	line-height: 0.3rem;
+	/* position: relative; */
+}
+.hot ul li .remise .dot{
+	width: 0.68rem;
+	height: 0.3rem;
+	border-radius: 0.12rem;
+	border: 0.01rem solid #ffbd1c;
+	font-size: 0.18rem;
+	color: #d0d0ce;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.hot ul li .remise .do{
+	margin-top: 0.05rem;
+}
+.hot ul li .remise span{
+	font-size: 0.18rem;
+	color: #d0d0ce;
+}
+.hot ul li .remise i{
+	font-size: 0.18rem;
+	color: #fbbf2c;
+}
+.hot ul li .remise .icon-location{
+	margin-left: 0.5rem;
+}
+.hot ul li .remise .icon-shijian{
+	left: 1rem;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 1.06rem;
+	padding: 0 0.24rem;
+	background: #fff;
+
+}
+footer ul{
+	width: 100%;
+	height: 100%;
+	/* background-color: blue; */
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 -0.04rem 0.2rem 0.01rem #ffc024;
+}
+footer ul li{
+	margin-top: 0.12rem;
+	height: 0.44rem;
+	width: 0.5rem;
+	/* background-color: yellow; */
+	display: flex;
+	flex-direction: column;
+}
+footer ul li img{
+	height: 0.44rem;
+	width: 0.5rem;
+}
+footer ul li a img{
+	height: 0.44rem;
+	width: 0.5rem;
+	display: block;
+}
+footer ul li h5{
+	font-size: 0.2rem;
+	color: #333;
+	text-align: center;
+}
+

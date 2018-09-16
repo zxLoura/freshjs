@@ -1,0 +1,198 @@
+/*
+* @Author: ZX
+* @Date:   2018-08-13 08:36:34
+* @Last Modified by:   ZX
+* @Last Modified time: 2018-08-14 19:20:21
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 1.82rem;
+	background:repeating-linear-gradient(to right top,#ffd43d,#fab001);
+	padding: 0 0.24rem;
+	margin-bottom: 0.24rem;
+}
+header .confirm{
+	width: 100%;
+	height: 0.66rem;
+	/* background: red; */
+	padding-top: 0.21rem;
+	display: flex;
+}
+header .confirm .back{
+	width: 2.9rem;
+	height: 100%;
+/* 	background: blue; */
+}
+header .confirm .back img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	border-radius: 0.16rem;
+}
+header .confirm .order{
+	width: calc(100% - 2.9rem);
+	height: 100%;
+	/* background: yellow; */
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .confirm .set{
+	width: 0.37rem;
+	height: 100%;
+	/* background: pink; */
+}
+header .confirm .set img{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	border-radius: 0.16rem;
+}
+header .introduce{
+	width: 100%;
+	height: 1.86rem;
+	margin-top: 0.24rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+	display: flex;
+	box-shadow:  0 0.04rem 0.25rem 0.01em rgba(250, 175, 70, 0.5);
+	margin-bottom: 0.24rem;
+}
+header .introduce .head{
+	width: 146px;
+	height: 100%;
+	/* background-color: red; */
+	padding: 0.24rem 0.24rem 0.76rem 0.24rem;
+}
+header .introduce .head img{
+	width: 0.94rem;
+	height: 0.94rem;
+	border-radius: 0.47rem
+}
+header .introduce .sign{
+	width: 5.55rem;
+	height: 100%;
+	/* background: blue; */
+	padding: 0.16rem 0 0.36rem;
+}
+header .introduce .sign h2{
+	padding: 0.16rem 0;
+	color: #000;
+	font-size: 0.24rem;
+}
+header .introduce .sign p{
+	color: #717171;
+	font-size: 0.2rem;
+	padding-bottom: 0.2rem;
+}
+/* 顶部结束 */
+
+/* 主体开始 */
+main{
+	width: 100%;
+	padding: 0 0.24rem;
+/* 	background-color: red; */
+	margin-top: 1.22rem;
+	margin-bottom: 1.5rem;
+}
+main ul li{
+	width: 100%;
+	height: 1.17rem;
+	/* background-color: orange; */
+	margin-bottom: 0.24rem;
+	padding: 0.24rem 0.24rem;
+	border-radius: 0.2rem;
+	display: flex;
+	box-shadow:  0 0.04rem 0.25rem 0.01em rgba(250, 175, 70, 0.5);
+}
+main ul li .left{
+	width: 0.68rem;
+	height: 100%;
+	/* background-color: yellow; */
+}
+main ul li .left img{
+	display: flex;
+	width: 0.55rem;
+	height: 0.55rem;
+	border-radius: 0.28rem;
+}
+main ul li .right{
+	width: 5.43rem;
+	height: 100%;
+	/* background-color: pink; */
+}
+main ul li .right h3{
+	font-size: 0.24rem;
+	color: #333;
+}
+main ul li .right p{
+	font-size: 0.2rem;
+	color: #717171;
+}
+main ul li .arrow{
+	width: 0.34rem;
+	height: 100%;
+	/* background-color:green; */
+}
+main ul li .arrow img{
+	width: 0.32rem;
+	height: 0.32rem;
+	display: block;
+	margin-top: 0.17rem;
+	border-radius: 0.16rem;
+}
+/* 主体结束 */
+
+/* 底部开始 */
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 1.06rem;
+	padding: 0 0.24rem;
+	background: #fff;
+
+}
+footer ul{
+	width: 100%;
+	height: 100%;
+	/* background-color: blue; */
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 -0.04rem 0.2rem 0.01rem rgba(250, 175, 70, 0.5);;
+}
+footer ul li{
+	margin-top: 0.12rem;
+	height: 0.44rem;
+	width: 0.5rem;
+	/* background-color: yellow; */
+	display: flex;
+	flex-direction: column;
+}
+footer ul li img{
+	height: 0.44rem;
+	width: 0.5rem;
+}
+footer ul li a img{
+	height: 0.44rem;
+	width: 0.5rem;
+	display: block;
+}
+footer ul li h5{
+	font-size: 0.2rem;
+	color: #333;
+	text-align: center;
+}
+

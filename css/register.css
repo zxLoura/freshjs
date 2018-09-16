@@ -1,0 +1,233 @@
+/*
+* @Author: ZX
+* @Date:   2018-08-14 17:12:37
+* @Last Modified by:   ZX
+* @Last Modified time: 2018-09-14 00:37:49
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/enter-background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* 顶部开始 */
+header{
+	width: 100%;
+	height:0.98rem;
+	padding-top: 0.3rem;
+	/* background: red; */
+	display: flex;
+}
+header .left{
+	width: 5.25rem;
+	height: 0.68rem;
+	/* background: yellow; */
+}
+header .left i{
+	font-size: 0.3rem;
+	color: #fff;
+	display: block;
+	padding-left: 0.24rem;
+}
+header .right{
+	width: calc(100% - 5.25rem);
+	height: 100%;
+	/* background: blue; */
+	padding-right: 0.48rem;
+}
+header .right button{
+	display: block;
+	width: 1.78rem;
+	height: 0.68rem;
+	background: #fbbc15;
+	border-radius: 0.34rem;
+	font-size: 0.34rem;
+	text-align: center;
+	border: none;	
+	color: #fff;
+	outline: none;
+}
+/* 顶部结束 */
+/* 头像开始 */
+.name{
+	width: 100%;
+	padding-top: 2rem;
+	/* background: blue; */
+	font-size: 0.28rem;
+	text-align: center;
+	color: #f9b001;
+	margin-bottom: 0.1rem;
+}
+.head{
+	width: 100%;
+	height: 2.46rem;
+	/* background:red;  */
+	position: relative;
+}
+.head img{
+	width: 2.43rem;
+	height: 2.43rem;
+	display: block;
+	margin: 0 auto;
+	border-radius: 1.22rem;
+}
+.head .inside{
+	width: 1.77rem;
+	height: 1.77rem;
+	display: block;
+	position: absolute;
+	top:0.37rem ;
+	left: 2.84rem;
+}
+
+/* 头像结束 */
+/* 主体开始 */
+main{
+	width: 100%;
+	height: 4.16rem;
+	/* background: red; */
+	padding: 0.24rem 0.48rem 0;
+	margin-top: 6rem;
+}
+main .center{
+	width: 100%;
+	height: 100%;
+	/* background: green; */
+}
+main .center .top{
+	width: 100%;
+	height: 1.03rem;
+	/* background: yellow; */
+	padding-top: 0.2rem;
+}
+main .center .top .connet{
+	width: 100%;
+	height: 0.22rem;
+	display: flex;
+	position: relative;
+}
+main .center .top .connet img{
+	width: 0.46rem;
+	height: 0.21rem;
+	display: block;
+	margin-right: 0.14rem;
+}
+main .center .top .connet .user{
+	width: 2.86rem;
+	height: 0.36rem;
+	position: absolute;
+	right: 0;
+	display: none;
+	
+}
+main .center .top .connet h3{
+
+	font-size: 0.24rem;
+	color:#f9b001; 
+}
+main .center .top .bottom{
+	width: 100%;
+	height: 0.67rem;
+	/* background: blue; */
+	padding-top: 0.25rem;
+	display: flex;
+}
+main .center .top .bottom .left{
+	display: flex;
+}
+main .center .top .bottom .left img{
+	width: 0.41rem;
+	height: 0.41rem;
+	display: block;
+	border-radius: 0.22rem;
+}
+main .center .top .bottom .left input{
+	width: 3rem;
+	height: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	border-bottom: 0.02rem solid #d3d0d0;
+} 
+main .center .top .bottom .left .discover{
+	display: none;
+}
+main .center .top .bottom .left h3{
+	font-size: 0.18rem;
+	color: #f9b001; 
+	line-height: 0.41rem;
+}
+main .center .top .bottom .left .get{
+	width: 1.86rem;
+	height: 0.66rem;
+	/* background: red; */
+}
+main .center .top .bottom .left .get button{
+	width: 1.86rem;
+	height: 0.66rem;
+	border-radius:0.1rem; 
+	font-size: 0.28rem;
+	text-align: center;
+	border: none;	
+	color: #fff;
+	background-color: red;
+	outline: none;
+	display: block;
+	margin-left: 0.3rem;
+}
+main .center .point{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 0.44rem;
+	font-size: 0.18rem;
+	color: #cececf;
+}
+main .center .last{
+	width: 100%;
+	height: 0.6rem;
+/* 	background: orange; */
+	margin-top: 0.46rem;
+}
+main .center .last .left{
+	display: flex;
+}
+main .center .last .left img{
+	width: 0.41rem;
+	height: 0.41rem;
+	display: block;
+	border-radius: 0.22rem;
+}
+main .center .last .left h3{
+	font-size: 0.24rem;
+	color:#f9b001;
+	margin-left: 0.2rem;
+}
+/* 主体结束 */
+/* 登录按钮 */
+.logon button{
+	display: block;
+	width: 1.78rem;
+	height: 0.68rem;
+	background: #777777;
+	border-radius: 0.34rem;
+	font-size: 0.34rem;
+	text-align: center;
+	border: none;	
+	color: #fff;
+	outline: none;
+	margin: 1rem auto 0.5rem;
+}
+/* 登录按钮 */

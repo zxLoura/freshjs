@@ -1,0 +1,442 @@
+/*
+* @Author: ZX
+* @Date:   2018-08-11 15:33:31
+* @Last Modified by:   ZX
+* @Last Modified time: 2018-08-12 01:28:03
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 0.88rem;
+	background:repeating-linear-gradient(to right top,#ffd43d,#fab001);
+	padding:0 0.24rem;
+}
+header .top{
+	width: 100%;
+	height: 0.73rem;
+	/* background: green; */
+	padding: 0 0.24rem;
+	display: flex;
+}
+header .top .left{
+	width: 3.02rem;
+	height: 100%;
+	/* background: yellow; */
+	padding-left: 0.1rem;
+}
+header .top .left i{
+	font-size: 0.3rem;
+	color: #fff;
+	display: block;
+	margin: 0.25rem 0 0.08rem 0;
+}
+header .top .center{
+	width: 3.15rem;
+	height: 100%;
+	/* background: blue; */
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .top .center p{
+	font-size: 0.3rem;
+	color: #fff;
+	margin: 0.25rem 0 0.08rem 0;
+}
+header .top .right{
+	width: 1.15rem;
+	height: 100%;
+	/* background: #333; */
+	display: flex;
+	justify-content: space-between;
+	padding-right: 0.1rem;
+
+}
+header .top .right i{
+	font-size: 0.35rem;
+	color: #fff;
+	display: block;
+	margin: 0.25rem 0 0.08rem 0;
+
+}
+/* 顶部结束 */
+
+/* 背景图开始 */
+.background{
+	width: 100%;
+	height: 3.55rem;
+	/* background: red; */
+	padding: 0.24rem 0.24rem;
+}
+.background img{
+	width: 7.02rem;
+	height: 3.07rem;
+	border-radius: 0.1rem;
+}
+
+/* 背景图结束 */
+
+/* 商品介绍开始 */
+.introduce{
+	width: 100%;
+	height: 2.8rem;
+	/* background: blue; */
+	padding: 0 0.24rem;
+}
+.introduce .name{
+	width: 100%;
+	height: 0.4rem;
+	/* background: pink; */
+	display: flex;
+}
+.introduce .name h3{
+	width: 2.89rem;
+	height: 100%;
+	/* background: green; */
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	color: #333；
+}
+.introduce .name .remise{
+	width: 1.03rem;
+	height: 100%;
+	/* background: orange; */
+}
+.introduce .name .remise .sell{
+	width: 0.82rem;
+	height:0.3rem;
+	background-color: #fff;
+	border-radius: 0.15rem;
+	border: 0.02rem solid red;
+	font-size: 0.2rem;
+	color: #fab407;
+	text-align: center;
+}
+.introduce .name .limit{
+	width: 3.12rem;
+	height: 100%;
+	/* background: yellow; */
+}
+.introduce .name .limit .buy{
+	width: 1.68rem;
+	height: 0.3rem;
+	background-color: #fff;
+	border-radius: 0.15rem;
+	border: 0.02rem solid red;
+	font-size: 0.2rem;
+	color: #fab407;
+	text-align: center;
+}
+.introduce .point{
+	line-height: 0.1rem;
+}
+.introduce .point p{
+	font-size: 0.18rem;
+	color: #9d9d9d;
+}
+.introduce .en-name{
+	width: 100%;
+	height: 0.5rem;
+	/* background: red; */
+	font-size: 0.3rem;
+	color: #333;
+	font-weight: bold;
+}
+.introduce .evaluate{
+	width: 100%;
+	height: 0.48rem;
+	/* background: pink; */
+	padding-bottom: 0.18rem;
+	display: flex;
+}
+.introduce .evaluate .star{
+	width: 2.12rem;
+	height: 100%;
+	/* background: #fff; */
+	font-size: 0.35rem;
+	color:  #fdd841;	
+	line-height: 0.22rem;
+}
+.introduce .evaluate .grade{
+	width: 3.5rem;
+	height: 100%;
+	/* background: yellow; */
+}
+.introduce .evaluate .grade .mark{
+	width: 0.64rem;
+	height: 100%;
+	background: #fff;
+	border: 0.02rem solid #fdd841;
+	border-radius: 0.15rem;
+	font-size: 0.18rem;
+	color: #fdd841;
+	text-align: center;
+}
+.introduce .evaluate .price{
+	width: 1.41rem;
+	height: 100%;
+/* 	background: green; */
+}
+.introduce .evaluate .price p{
+	font-size: 0.24rem;
+	color: red;
+}
+.introduce .evaluate .price p span{
+	font-size: 0.18rem;
+	color: red;
+}
+.introduce .dosing-name{
+	height: 0.52rem;
+	padding-bottom: 0.27rem;
+	/* background: yellow; */
+}
+.introduce .dosing-name h3{
+	font-size: 0.24rem;
+	color: #333;
+}
+.introduce .dosing{
+	width: 100%;
+	height: 0.66rem;
+	/* background: pink; */
+}
+.introduce .dosing{
+	font-size: 0.22rem;
+	color: #898989;
+	font-weight: 400；
+
+}
+/* 商品介绍结束 */
+
+/* 买家评价开始 */
+.buyer{
+	width: 100%;
+	height: 2.29rem;
+	padding: 0 0.24rem 0.24rem;
+	/* background: red; */
+}
+.buyer .member{
+	width: 100%;
+	height: 0.35rem;
+	/* background: yellow; */
+	display: flex;
+}
+.buyer .member h3{
+	width: 3.29rem;
+	height: 100%;
+	/* background: pink; */
+	font-size: 0.24rem;
+	color: #333;
+	line-height: 0.24rem;
+}
+.buyer .member p{
+	width: 2.56rem;
+	height: 100%;
+	/* background: blue; */
+	font-size: 0.18rem;
+	color: #7a7a7a;
+	font-weight: 600;
+	line-height: 0.5rem;
+}
+.buyer .member .check{
+	width: 1.19rem;
+	height: 100%;
+	/* background: green; */
+}
+.buyer .member .check .log{
+	width: 1.19rem;
+	height: 0.45rem;
+	background: #fab30b;
+	border-radius: 0.24rem;
+	margin-top: -0.1rem;
+	font-size: 0.2rem;
+	text-align: center;
+	color: #fff;
+	line-height: 0.45rem;
+}
+.buyer .center{
+	width: 100%;
+	height: 1.06rem;
+/* 	background: yellow; */
+	padding: 0.24rem 0 0.1rem;
+	display: flex;
+}
+.buyer .center .left{
+	width: 0.95rem;
+	height: 0.74rem;
+/* 	background: pink; */
+	padding-right: 0.24rem;
+}
+.buyer .center .left img{
+	display: block;
+	width: 0.74rem;
+	height: 0.74rem;
+	border-radius: 0.37rem;
+}
+.buyer .center .right{
+	width: 6.08rem;
+	height: 100%;
+/* 	background: green; */
+}
+.buyer .center .right h3{
+	font-size: 0.22rem;
+	color:#9c9c9c; 
+}
+.buyer .center .right p{
+	font-size: 0.20rem;
+	color:#9c9c9c;
+}
+.buyer .word{
+	width: 100%;
+	height: 0.65rem;
+	background: #dfdfdf;
+	border-radius: 0.1rem;
+	line-height: 0.65rem;
+	padding-left: 0.1rem;
+}
+.buyer .word h3{
+	font-size: 0.18rem;
+	color: #333;
+	font-weight: 600;
+}
+/* 买家评价结束 */
+
+/* 卖家推荐开始 */
+.recommend{
+	width: 100%;
+	height: 8.54rem;
+	/* background: red; */
+	padding: 0 0.24rem;
+	margin-bottom: 1rem;
+}
+.recommend .seller{
+	width: 100%;
+	height: 0.64rem;
+	/* background: pink; */
+	padding-bottom: 0.38rem;
+}
+.recommend .seller h3{
+	font-size: 0.24rem;
+	color: #333;
+}
+.recommend .main{
+	width: 100%;
+	height: 7.9rem;
+	/* background: yellow; */
+}
+.recommend .main ul li{
+	width: 3.39rem;
+	height: 3.72rem;
+	/* background: blue; */
+	float: left;
+	margin-bottom: 0.24rem;
+	border-radius: 0.2rem;
+	box-shadow:  0 0.04rem 0.2rem 0.01em rgba(250, 180, 7, 0.2); 
+}
+.recommend .main ul li:nth-child(2n+1){
+	margin-right:0.24rem;
+}
+.recommend .main ul li .one{
+	width: 100%;
+	height: 2.3rem;
+	/* background: pink; */
+	border-radius: 0.2rem  0.2rem 0 0;
+}
+.recommend .main ul li .one img{
+	width: 3.39rem;
+	height: 2.3rem;
+	border-radius:0.2rem  0.2rem 0 0;
+}
+.recommend .main ul li .two{
+	width: 3.39rem;
+	height: 1.42rem;
+	/* background: green; */
+	text-align: center;
+}
+.recommend .main ul li .two h3{
+	padding: 0.21rem 0 0.13rem;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	color: #333;
+}
+.recommend .main ul li .two p{
+	padding-bottom: 0.21rem;
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	color: #bfbfbf;
+}
+.recommend .main ul li .two h2{
+	font-size: 0.3rem;
+	color: red;
+	line-height: 0.18rem;
+}
+.recommend .main ul li .two h2 span{
+	font-size: 0.18rem;
+	color: red;
+}
+/* 卖家推荐结束 */
+
+/* 底部开始 */
+footer{
+	width: 7.02rem;
+	height: 0.88rem;
+	margin-left: 0.24rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	display: flex;
+	box-shadow:  0 0.04rem 0.2rem 0.05em rgba(3, 3, 3, 0.2); 
+}
+footer .shop{
+	width: 1.01rem;
+	height: 100%;
+	position: relative;
+}
+footer .shop .pp{
+	width: 0.7rem;
+	height: 0.7rem;
+	background: #adadad;
+	border-radius: 0.35rem;
+	font-size: 0.24rem;
+	position: absolute;
+	top: -0.25rem;
+	left: 0.1rem;
+
+}
+footer .shop .pp i{
+	display: block;
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.7rem;
+}
+footer .buy{
+	width: 3.57rem;
+	height: 100%;
+	/* background: blue; */
+}
+footer .buy p{
+	font-size: 0.24rem;
+	color: #9e9e9e;
+}
+footer .pay{
+	width: 2.44rem;
+	height: 100%;
+	background: #484848;
+	font-size: 0.28rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.88rem;
+}
+/* 底部结束 */
